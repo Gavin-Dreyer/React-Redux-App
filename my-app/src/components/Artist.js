@@ -17,12 +17,12 @@ const Artist = (props) => {
     let src3 = 'https://img.discogs.com/9BirYHcwwNjBS6dLTCaJH8pDsZc=/fit-in/168x211/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-286-1098542594.jpg.jpg'
     let src4 = 'https://img.discogs.com/oVREWC7BgxyUeDYXpsEHp7ii_Nw=/fit-in/539x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-25872-1233416858.jpeg.jpg'
 
-    console.log(props)
+    // console.log(props)
 
     return (
         <div className='artist'>
             {props.artist.map(item => (
-                <ArtistCard artist={item} src1={src1} />
+                <ArtistCard artist={item} key={item.id} src1={src1} src2={src2} src3={src3} src4={src4} />
             ))}
         </div>
     )
