@@ -5,7 +5,7 @@ export const FETCH_SUCCESS = 'FETCH_SUCCES'
 export const FETCH_FAILURE = 'FETCH_FAILURE'
 export const fetchArtist = () => dispatch => {
     dispatch({ type: START_FETCHING })
-        const artistArray = ['https://api.discogs.com/artists/286', 'https://api.discogs.com/artists/25872', 'https://api.discogs.com/artists/151223']
+        const artistArray = ['https://api.discogs.com/artists/286', 'https://api.discogs.com/artists/25872', 'https://api.discogs.com/artists/151223', 'https://api.discogs.com/artists/25058']
         let emptyArray = []
 
         artistArray.forEach(item => {

@@ -9,6 +9,7 @@ const ArtistCard = (props) => {
                 <p className='profileText'>
                     {props.artist.realname}
                 </p>
+                <img src={props.src1} className='artistImg' />
                 <p className='profileText'>
                     {props.artist.profile}
                 </p>
