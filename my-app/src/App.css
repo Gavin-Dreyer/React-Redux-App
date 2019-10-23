@@ -30,3 +30,8 @@
   height: auto;
   margin: 0 0 0 .5rem;
 }
+
+.inputText {
+  font-size: 5rem;
+  margin: auto;
+}

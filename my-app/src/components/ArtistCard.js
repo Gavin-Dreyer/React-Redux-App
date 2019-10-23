@@ -2,7 +2,7 @@ import React from 'react'
 
 const ArtistCard = (props) => {
 
-    console.log(props.artist.id)
+    // console.log(props.artist)
 
     const renderImg = () => {
         if(props.artist.id === 25872) {
