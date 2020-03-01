@@ -1,0 +1,37 @@
+.App {
+  
+}
+
+.artist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.artistCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-evenly;
+  width: 40%;
+  margin: 2rem;
+  height: 90vh;
+  box-shadow: 2px 2px 3px 3px;
+}
+
+.profileText {
+  padding: .5rem;
+  line-height: 1.5;
+}
+
+.artistImg {
+  width: 20%;
+  height: auto;
+  margin: 0 0 0 .5rem;
+}
+
+.inputText {
+  font-size: 5rem;
+  margin: auto;
+}
